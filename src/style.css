@@ -19,13 +19,13 @@ body {
   height: 64px;
   width: 64px;
 }
-.weather-temperature strong {
+.weather-temperature #temperatureNumber {
   color: rgb(33, 33, 33);
   font-size: 64px;
   line-height: 1;
   font-weight: 400;
 }
-.weather-temperature .units {
+.weather-temperature #units {
   position: relative;
   font-size: 16px;
   top: -34px;
@@ -48,6 +48,7 @@ li {
   padding: 0;
   color: #70757a;
   font-size: 16px;
+  text-transform: capitalize;
   font-weight: 100;
   line-height: 19px;
 }
